@@ -39,13 +39,34 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
+    <div class="parallax">
+      <img src="Assets/img/forest.png" id="fr">
+      <img src="Assets/img/bird1.png" id="br">
+      <img src="Assets/img/bird2.png" id="br">
+      <img src="Assets/img/water.png" id="wt">
+      <img src="Assets/img/rocks.png" id="rc">
+    </div>
     <div class="hero-container">
       <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/logo.png" alt=""></a>
       <h1 data-aos="zoom-in">Welcome To Geopark Ciletuh</h1>
       <h2 data-aos="fade-up">Unofficial Interactive Maps</h2>
       <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <script>
+    gsap.from("#fr",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: -150,
+    })
+    gsap.from("#br",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: 300,
+    })
+  </script><!-- End Hero -->
 
   <!-- ======= Header
   <header id="header" class="d-flex align-items-center">
