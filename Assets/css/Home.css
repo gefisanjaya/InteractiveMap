@@ -1,0 +1,89 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 412px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 316px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 296px;
+  }
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+body{
+  overflow: hidden;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  top: -20px;
+}
+.nav{
+  top: -30px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.nav li{
+  list-style: none;
+}
+.parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parallax img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+#text{
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  font-size: 4em;
+  color: #112434;
+}
+#mn{
+  z-index: 100;
+}
+#bg{
+  z-index: 0;
+}
+#mo{
+  z-index: 1;
+  scale: 1.4;
+  left: -250px;
+  bottom: 152px;
+}
+svg{
+  margin-left: -20px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
