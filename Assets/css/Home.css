@@ -81,3 +81,14 @@ div#zoom > img {
   width: 100%;
   height: auto;
 }
+.container {
+  width: 1000px;
+  height: 700px;
+  position: relative;
+  outline: 10px solid #ff3030;
+  overflow: hidden;
+}
+svg{
+  position: absolute;
+  object-fit: contain;
+}
