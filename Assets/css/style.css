@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 15px 0;
   overflow: hidden;
 }
 
@@ -393,6 +393,7 @@ section {
 .SearchMenuBar{
   margin: 0;
   padding: 0;
+  margin-top: -20px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -402,8 +403,7 @@ section {
 }
 .SearchMenuBar nav {
   position: block;
-  top: 200px;
-  bottom: 200px;
+  top: 100%;
   left: 0;
   height: 70px;
   width: 100%;
@@ -428,11 +428,11 @@ section {
   font-weight: 500;
 }
 .SearchMenuBar nav .sidebar {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 100%;
   left: -100%;
   height: 100%;
-  width: 260px;
+  width: 460px;
   padding: 20px 0;
   background-color: #fff;
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
@@ -494,10 +494,10 @@ section {
 
 .SearchMenuBar .search{
   position: relative;
-  top: 20px;
+  top: 10px;
   left:20px;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background: white;
   border-radius: 60px;
   transition: 0.5%;
@@ -513,8 +513,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background: white;
   border-radius: 60px;
   display: flex;
@@ -538,15 +538,15 @@ section {
   content: '';
   position: absolute;
   width: 3px;
-  height: 15px;
+  height: 10px;
   background: #287dfc;
-  transform: translate(7px,7px) rotate(315deg);
+  transform: translate(5px,5px) rotate(315deg);
 }
 
 .SearchMenuBar .search .input{
   position: relative;
   width: 300px;
-  height: 60px;
+  height: 30px;
   left: 60px;
   display: flex;
   justify-content: center;
