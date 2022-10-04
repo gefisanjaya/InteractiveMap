@@ -4,6 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/**var a;
+
+show_sidebar(clicked.id) {
+  if(a==1){
+    document.getElementById(clicked.id).style.display
+  }
+}*/
+
 (function() {
   "use strict";
 
