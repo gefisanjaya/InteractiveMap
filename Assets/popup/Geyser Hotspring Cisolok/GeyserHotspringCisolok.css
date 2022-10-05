@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+   min-height: 100vh;
+}
+
+.popup{
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,  -50%);
+   display: none;
+}
+
+.GeyserHotspringCisolok{
+   position: relative;
+   width: 600px;
+   height: 400px;
+   background: linear-gradient(#C6CEBE,#E0DED2);
+   border-radius: 20px;
+   display: flex;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.GeyserHotspringCisolok .imgBx{
+   position: relative;
+   width: 300px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.GeyserHotspringCisolok .imgBx::before{
+   content: '';
+   position: absolute;
+   width: 0px;
+   height: 0px;
+   background: #e7ffe0;
+   border-radius: 0%;
+}
+
+.GeyserHotspringCisolok .imgBx img{
+   position: relative;
+   max-width: 250px;
+   z-index: 1;
+}
+
+.GeyserHotspringCisolok .content{
+   position: relative;
+   width: 300px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.GeyserHotspringCisolok .content h3{
+   color: #333;
+   line-height: 1em;
+   font-weight: 300;
+   font-size: 2em;
+}
+
+.GeyserHotspringCisolok .content h2{
+   font-size: 4em;
+   color: #ff4d54;
+   line-height: 1em;
+}
+
+.GeyserHotspringCisolok .content h2 span{
+   color: #333;
+   font-size: 0.75em;
+   text-transform: uppercase;
+}
+
+.GeyserHotspringCisolok .content p{
+   font-weight: 300;
+}
+
+.GeyserHotspringCisolok .content a{
+   display: inline-block;
+   padding: 10px 20px;
+   background: #ff4d54;
+   color: white;
+   margin-top: 15px;
+   text-decoration: none;
+   border-radius: 10px;
+}
+
+.close{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+   background: #f3f3f3 url(https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png);
+   background-repeat: no-repeat;
+   background-size: 10px;
+   background-position: center;
+   cursor: pointer;
+   border-radius: 50%;
+   z-index: 10;
+}
+
+@media (max-width : 767px)
+{
+   .GeyserHotspringCisolok{
+      width: 300px;
+      height: auto;
+      flex-direction: column;
+   }
+
+   .GeyserHotspringCisolok .imgBx{
+      height: 200px;
+      transform: translateY(-50px);
+   }
+
+   .GeyserHotspringCisolok .imgBx::before{
+      background: white;
+   }
+
+   .GeyserHotspringCisolok .content{
+      height: auto;
+      text-align: center;
+      padding: 20px;
+      padding-top: 0;
+   }
+
+   .close{
+      top: -50px;
+      right: -10px;
+      background: #fff url(https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png);
+      background-repeat: no-repeat;
+      background-size: 10px;
+      background-position: center;
+   }
+}
