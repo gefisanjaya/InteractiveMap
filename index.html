@@ -137,26 +137,7 @@
             </nav>
             <section class="overlay"></section>
             
-            <script>
-              const navBar = document.querySelector("nav"),
-                menuBtns = document.querySelectorAll(".menu-icon"),
-                overlay = document.querySelector(".overlay");
-        
-              menuBtns.forEach((menuBtn) => {
-                menuBtn.addEventListener("click", () => {
-                  navBar.classList.toggle("open");
-                });
-              });
-        
-              overlay.addEventListener("click", () => {
-                navBar.classList.remove("open");
-              });
-              const searchIcon = document.querySelector('.searchIcon');
-            const search = document.querySelector('.search');
-            searchIcon.onclick = function(){
-                search.classList.toggle('active')
-            }
-            </script>
+            
           </body>
         </div>
       </section>
@@ -914,6 +895,27 @@
     </section><!-- End About Us Section -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script>
+    const navBar = document.querySelector("nav"),
+      menuBtns = document.querySelectorAll('path'),
+      overlay = document.querySelector(".overlay");
+
+    menuBtns.forEach((menuBtn) => {
+      console.log('apawe');
+      menuBtn.addEventListener("click", () => {
+        navBar.classList.toggle("open");
+      });
+    });
+
+    overlay.addEventListener("click", () => {
+      navBar.classList.remove("open");
+    });
+    const searchIcon = document.querySelector('.searchIcon');
+  const search = document.querySelector('.search');
+  searchIcon.onclick = function(){
+      search.classList.toggle('active')
+  }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
