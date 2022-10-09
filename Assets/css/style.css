@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  background: linear-gradient(#a9e2f5,#cfecf5,#f1e1c9,#faf8f0);
 }
 
 a {
