@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(#a9e2f5,#cfecf5,#f1e1c9,#faf8f0);
+  background: linear-gradient(#faf8f0,#f1e1c9,#cfecf5,#a9e2f5);
 }
 
 a {
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 56px;
   font-weight: bolder;
-  color: rgb(55, 144, 76);
+  color: orange;
   font-family: 'Caveat', cursive;
 }
 
