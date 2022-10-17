@@ -6,7 +6,7 @@
 
     const appearEmoticon = (gambar = '') => {
 
-        document.getElementById("content-img").innerHTML =  "<img style='width: 420px; height: 100%' src='Assets/img/"+gambar+".jpg'/>";
+        document.getElementById("content-img").innerHTML =  "<img style='width: 420px; height: 100%; box-shadow: 5px 5px 5px rgba(0,0,0,0.8); margin-bottom: 10px;' src='Assets/img/"+gambar+".jpg'/>";
         document.getElementById("judul").innerHTML = gambar;
 
     };
@@ -212,7 +212,7 @@
                     break;
                 case 'Kampung Batik Purwasedar':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML = "";
+                    document.getElementById("content-desc").innerHTML = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Konservasi Penyu':
                     appearEmoticon(event.target.id);
@@ -232,7 +232,7 @@
                     break;
                 case 'Kekar Kolom':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Bunker Jepang':
                     appearEmoticon(event.target.id);
@@ -240,7 +240,7 @@
                     break;
                 case 'Gua Cukcrukan':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Curug Luhur':
                     appearEmoticon(event.target.id);
@@ -252,11 +252,11 @@
                     break;
                 case 'Gua Maung &#38; Lava Bantal Cikarang':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Gua Monyet':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Curug Nangsi':
                     appearEmoticon(event.target.id);
@@ -264,7 +264,7 @@
                     break;
                 case 'Curug Puncakjeruk_3':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Curug Gentong':
                     appearEmoticon(event.target.id);
@@ -272,7 +272,7 @@
                     break;
                 case 'Pos Pengamatan Bulan':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "";
+                    document.getElementById("content-desc").innerHTML =  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, totam itaque illo cumque neque nesciunt ipsa? Accusantium fugiat voluptates";
                     break;
                 case 'Vihara Dewi Kwan Im':
                     appearEmoticon(event.target.id);
