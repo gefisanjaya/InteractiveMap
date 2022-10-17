@@ -438,6 +438,7 @@ section {
   background-color: #fff;
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
   transition: all 0.4s ease;
+  overflow: auto;
 }
 .SearchMenuBar nav.open .sidebar {
   left: 0;
@@ -614,9 +615,4 @@ section {
   100%{
     transform: translateX(400%) scale(1.5);
   }
-}
-
-.desc{
-  overflow:auto;
-  height: 600px;
 }
