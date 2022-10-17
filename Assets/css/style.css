@@ -602,11 +602,11 @@ section {
   left: 0;
   max-width: 300px;
   z-index: 10000;
-  animation: animateCloud 30s linear infinite;
+  animation: animateBird 30s linear infinite;
   animation-delay: -10s;
 }
 
-@keyframes animateCloud {
+@keyframes animateBird {
   0%{
     transform: translateX(-100%) scale(1);
   }
@@ -619,4 +619,71 @@ section {
 .desc{
   overflow:auto;
   height: 600px;
+}
+
+#cloud1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 50s linear infinite;
+}
+
+#cloud2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 35s linear infinite;
+}
+
+#cloud3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 80s linear infinite;
+}
+
+#cloud4{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 70s linear infinite;
+  animation-delay: -20s;
+}
+
+#cloud5{
+  position: absolute;
+  top: 150px;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 40s linear infinite;
+  animation-delay: -5s;
+}
+
+#cloud6{
+  position: absolute;
+  top: 75px;
+  left: 0;
+  max-width: 300px;
+  z-index: 10000;
+  animation: animateCloud 30s linear infinite;
+  animation-delay: -10s;
+}
+
+@keyframes animateCloud {
+  0%{
+    transform: translateX(-100%) scale(1);
+  }
+
+  100%{
+    transform: translateX(400%) scale(1.5);
+  }
 }
