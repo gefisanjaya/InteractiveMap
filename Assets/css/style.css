@@ -370,12 +370,13 @@ section {
 }
 
 .box {
-  width: 1000px;
+  width: 800px;
   height: 500px;
   position: relative;
   overflow: hidden;
   margin-left: 360px;
   margin-bottom: -30px;
+  border: 1px solid;
 }
 
 #zoom {
@@ -594,10 +595,5 @@ section {
   height: 15px;
   background: #999;
   transform: rotate(315deg);
-}
-
-.foto{
-  width: 529px;
-  height: 298px;
 }
 

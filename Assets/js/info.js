@@ -6,7 +6,7 @@
 
     const appearEmoticon = (gambar = '') => {
 
-        document.getElementById("content-img").innerHTML =  "<img src='Assets/img/"+gambar+".jpg'/>";
+        document.getElementById("content-img").innerHTML =  "<img style='width: 420px; height: 100%' src='Assets/img/"+gambar+".jpg'/>";
         document.getElementById("judul").innerHTML = gambar;
 
     };
