@@ -370,11 +370,11 @@ section {
 }
 
 .box {
-  width: 800px;
+  width: 700px;
   height: 500px;
   position: relative;
   overflow: hidden;
-  margin-left: 360px;
+  margin-left: 410px;
   margin-bottom: -30px;
   border: 1px solid;
 }
@@ -432,7 +432,7 @@ section {
   position: absolute;
   top: 100%;
   left: -100%;
-  height: 100%;
+  height: 675px;
   width: 460px;
   padding: 20px 0;
   background-color: #fff;
@@ -614,4 +614,9 @@ section {
   100%{
     transform: translateX(400%) scale(1.5);
   }
+}
+
+.desc{
+  overflow:auto;
+  height: 600px;
 }
