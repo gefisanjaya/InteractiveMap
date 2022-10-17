@@ -16,7 +16,7 @@
             switch (event.target.id) {
                 case 'Situs Pangguyangan':
                     appearEmoticon(event.target.id);
-                    document.getElementById("content-desc").innerHTML =  "Situs Pangguyangan merupakan situs peninggalan tradisi megalitik dengan komponen-komponen yang terdiri dari teras berundak, struktur berundak, dan punden berundak serta batu-batu tegak. Akan tetapi, batu tegak tersebut (yang berada di puncak punden berundak) banyak disalahartikan oleh masyarakat sebagai makam dari Ki Genter Bumi, seorang tokoh yang dipercaya sebagai keturunan Syarif Hidayatullah. Banyak kegiatan ritual menyangkut keberadaan terduga makam ini yang menyebabkan situs terkenal, akibatnya pembangunan fasilitas di sekitar situs sebagai sarana para peziarah."; 
+                    document.getElementById("content-desc").innerHTML =  "Situs Pangguyangan merupakan situs peninggalan tradisi megalitik dengan komponen-komponen yang terdiri dari teras berundak, struktur berundak, dan punden berundak serta batu-batu tegak. Akan tetapi, batu tegak tersebut (yang berada di puncak punden berundak) banyak disalahartikan oleh masyarakat sebagai makam dari Ki Genter Bumi, seorang tokoh yang dipercaya sebagai keturunan Syarif Hidayatullah."; 
                     break;
                 case 'Situs Cengkuk':
                     appearEmoticon(event.target.id);
