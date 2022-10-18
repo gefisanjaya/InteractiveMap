@@ -577,25 +577,6 @@ footer ul {
 footer ul li {
   list-style: none;
 }
-/* footer .footer-icons {
-  height: 48px;
-  object-fit: contain;
-  margin: 0 20px;
-  z-index: -10;
-  transition: all ease-out 150ms;
-}
-footer .footer-icons:hover {
-  transform: translateY(-8px);
-}
-footer .footer-link {
-  margin: 0 20px;
-  text-decoration: none;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.25px;
-  transition: all ease-in 150ms;
-} */
 footer li:hover,
 .footer-link:hover {
   transform: scale(1.05);
