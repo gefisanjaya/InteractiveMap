@@ -374,9 +374,11 @@ section {
   height: 500px;
   position: relative;
   overflow: hidden;
-  margin-left: 410px;
+  margin-left: 420px;
   margin-bottom: -30px;
-  border: 1px solid;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom,#83bfe4,#1880c0,rgb(38, 150, 219)) 1; 
 }
 
 #zoom {
@@ -672,7 +674,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+  padding: 20px 0;
 }
 .footer-col{
    width: 25%;
@@ -712,18 +714,6 @@ ul{
 .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
